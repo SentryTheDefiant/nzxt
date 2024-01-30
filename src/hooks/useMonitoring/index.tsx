@@ -40,7 +40,7 @@ export const useMonitoring = () => {
           })
 
           setGpu({
-            name: gpu?.name,
+            name: "5700 XT",
             load: Number(((gpu?.load ?? 1) * 100).toFixed(0)) ?? 0,
             temperature: Number(gpu?.temperature?.toFixed(0)),
             maxTemperature: Number(gpu?.maxTemperature),
